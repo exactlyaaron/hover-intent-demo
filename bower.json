@@ -1,0 +1,10 @@
+{
+  "name": "hover-intent-demo",
+  "version": "0.0.1",
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "lodash": "~3.10.1",
+    "velocity": "~1.2.3"
+  },
+  "private": true
+}
