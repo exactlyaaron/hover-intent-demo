@@ -9,7 +9,10 @@
   "scripts": {},
   "dependencies": {},
   "devDependencies": {
-    "express": "^4.13.3"
+    "express": "^4.13.3",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-sass": "^2.1.0"
   },
   "config": {
     "blanket": {
