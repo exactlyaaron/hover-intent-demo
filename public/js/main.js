@@ -189,9 +189,9 @@ $(document).ready(function(){
         }, 400);
       }
 
-      if( type === 'promo-collection' ){
-        sendGaEvent(e.type, e.target, 'expand');
-      }
+      // if( type === 'promo-collection' ){
+      //   sendGaEvent(e.type, e.target, 'expand');
+      // }
     };
 
     this.closeDropdown = function($element){
@@ -206,7 +206,7 @@ $(document).ready(function(){
     function clickEventNavClose(e){
       e.preventDefault();
       e.stopPropagation();
-      sendGaEvent(e.type, e.target, 'close');
+      //sendGaEvent(e.type, e.target, 'close');
       navContainer.closeMenu();
     }
 
@@ -274,13 +274,13 @@ $(document).ready(function(){
         if( activeId === clickId ) {
           // you clicked the link of the current open menu item
           navContainer.closeMenu();
-          sendGaEvent('close', e.target, gaDropdownId);
+          //sendGaEvent('close', e.target, gaDropdownId);
           gaEventSent = true;
         } else {
           // if you clicked a different dropdown link
           if( activeType !== clickType && activeType === 'dropdown') {
             navContainer.closeMenu();
-            sendGaEvent('close', e.target, gaDropdownId);
+            //sendGaEvent('close', e.target, gaDropdownId);
             gaEventSent = true;
           } else {
             var $newElement = $('.ng-global-nav__dropdown[data-dropdown="'+clickId+'"]');
@@ -293,9 +293,9 @@ $(document).ready(function(){
         navContainer.openDropdown($dropdownsWrapper, $element, e);
       }
 
-      if(!gaEventSent){
-        sendGaEvent('expand', e.target, gaDropdownId);
-      }
+      // if(!gaEventSent){
+      //   sendGaEvent('expand', e.target, gaDropdownId);
+      // }
     }
 
     function bindClickEvents(){
