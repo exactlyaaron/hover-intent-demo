@@ -83,7 +83,7 @@ body, .sb-site, .subject-matter {
   /* line 97, stdin */
   .ng-global-nav__topbar-link.inactive-link:hover {
     font-size: 14px;
-    color: #fff;
+    color: #eee;
     background-color: inherit !important;
     cursor: default; }
   /* line 106, stdin */
@@ -138,7 +138,7 @@ body, .sb-site, .subject-matter {
   display: block;
   position: absolute;
   top: 0;
-  color: #fff;
+  color: #eee;
   text-align: center;
   font-size: 24px; }
   /* line 179, stdin */
@@ -225,86 +225,89 @@ body, .sb-site, .subject-matter {
   display: block;
   width: 40px;
   height: 40px;
-  color: #fff;
-  top: 70px;
-  right: 5px;
+  color: #eee;
+  top: 50px;
+  right: -5px;
   font-size: 36px;
   cursor: pointer; }
   /* line 279, stdin */
+  .ng-global-nav__close:before {
+    font-size: 0.5em; }
+  /* line 283, stdin */
   .breakpoint-palm-only .ng-global-nav__close {
     display: none !important; }
-  /* line 283, stdin */
+  /* line 287, stdin */
   .ng-global-nav__close:hover {
     color: #fff; }
 
-/* line 288, stdin */
+/* line 292, stdin */
 .ng-global-nav__dropdown, .global-nav__promo-collection__wrapper {
   font-size: 24px;
   padding: 93px 50px 30px 50px;
   display: none;
   opacity: 1; }
-  /* line 301, stdin */
+  /* line 305, stdin */
   .ng-global-nav__dropdown.global-nav__explore-dropdown, .global-nav__promo-collection__wrapper.global-nav__explore-dropdown {
     padding: 53px 50px 0px 50px; }
-    /* line 304, stdin */
+    /* line 308, stdin */
     .breakpoint-palm-only .ng-global-nav__dropdown.global-nav__explore-dropdown, .breakpoint-palm-only .global-nav__promo-collection__wrapper.global-nav__explore-dropdown {
       padding: 53px 0 50px 0; }
-    /* line 308, stdin */
+    /* line 312, stdin */
     .breakpoint-tablet-only .ng-global-nav__dropdown.global-nav__explore-dropdown, .breakpoint-tablet-only .global-nav__promo-collection__wrapper.global-nav__explore-dropdown {
       padding: 53px 20px 0px 15px; }
 
-/* line 314, stdin */
+/* line 318, stdin */
 .active-link {
   background: #333;
   color: #fff; }
 
-/* line 320, stdin */
+/* line 324, stdin */
 .dropdown__closed {
   transform: translateY(-100%);
   -webkit-transform: translateY(-100%);
   -ms-transform: translateY(-100%); }
-  /* line 326, stdin */
+  /* line 330, stdin */
   .dropdown__closed .ng-global-nav__close {
     display: none !important; }
 
-/* line 331, stdin */
+/* line 335, stdin */
 .dropdown-content__hidden {
   opacity: 0; }
 
-/* line 339, stdin */
+/* line 343, stdin */
 .opacity-0 {
   opacity: 0; }
 
-/* line 345, stdin */
+/* line 349, stdin */
 .breakpoint-tablet-up .inactive-link {
   opacity: 0.25;
   cursor: default; }
 
-/* line 353, stdin */
+/* line 357, stdin */
 .breakpoint-palm-only .global-nav__search-dropdown {
   display: none !important; }
 
-/* line 358, stdin */
+/* line 362, stdin */
 .global-nav__search-dropdown__content {
   width: 100%;
   max-width: 1000px;
   font-size: 16px;
   margin: 0 auto; }
 
-/* line 365, stdin */
+/* line 369, stdin */
 .global-nav__search-dropdown__title {
   font-size: 26px;
-  color: #fff;
+  color: #eee;
   margin-bottom: 25px; }
 
-/* line 372, stdin */
+/* line 376, stdin */
 .ng-global-nav__search-form {
   position: relative;
   margin-bottom: 40px; }
-  /* line 376, stdin */
+  /* line 380, stdin */
   .breakpoint-palm-only .ng-global-nav__search-form {
     margin-bottom: 20px; }
-  /* line 380, stdin */
+  /* line 384, stdin */
   .ng-global-nav__search-form input[type="text"] {
     display: block;
     width: 100%;
@@ -312,28 +315,28 @@ body, .sb-site, .subject-matter {
     padding: 25px;
     background: #4b4b4b;
     border: 1px solid #979797; }
-    /* line 389, stdin */
+    /* line 393, stdin */
     .breakpoint-palm-only .ng-global-nav__search-form input[type="text"] {
       padding: 20px;
       font-size: 13px; }
-    /* line 394, stdin */
+    /* line 398, stdin */
     .ng-global-nav__search-form input[type="text"]:focus {
       outline: 3px solid #979797; }
-    /* line 398, stdin */
+    /* line 402, stdin */
     .ng-global-nav__search-form input[type="text"]::-webkit-input-placeholder {
       color: #fff; }
-    /* line 402, stdin */
+    /* line 406, stdin */
     .ng-global-nav__search-form input[type="text"]:-moz-placeholder {
       /* Firefox 18- */
       color: #fff; }
-    /* line 406, stdin */
+    /* line 410, stdin */
     .ng-global-nav__search-form input[type="text"]::-moz-placeholder {
       /* Firefox 19+ */
       color: #fff; }
-    /* line 410, stdin */
+    /* line 414, stdin */
     .ng-global-nav__search-form input[type="text"]:-ms-input-placeholder {
       color: #fff; }
-  /* line 415, stdin */
+  /* line 419, stdin */
   .ng-global-nav__search-form .ng-global-nav__search-submit__wrapper {
     display: block;
     position: absolute;
@@ -342,21 +345,21 @@ body, .sb-site, .subject-matter {
     width: 40px;
     height: 40px;
     z-index: 4; }
-    /* line 425, stdin */
+    /* line 429, stdin */
     .breakpoint-palm-only .ng-global-nav__search-form .ng-global-nav__search-submit__wrapper {
       top: 9px;
       right: 5px; }
-    /* line 431, stdin */
+    /* line 435, stdin */
     .ng-global-nav__search-form .ng-global-nav__search-submit__wrapper:hover:before {
       color: #fff; }
-    /* line 436, stdin */
+    /* line 440, stdin */
     .ng-global-nav__search-form .ng-global-nav__search-submit__wrapper:before {
       position: absolute;
       top: 5px;
       left: 5px;
       font-size: 26px;
-      color: #fff; }
-    /* line 444, stdin */
+      color: #eee; }
+    /* line 448, stdin */
     .ng-global-nav__search-form .ng-global-nav__search-submit__wrapper input[type="submit"] {
       display: block;
       position: absolute;
@@ -366,23 +369,24 @@ body, .sb-site, .subject-matter {
       background: none;
       z-index: 5; }
 
-/* line 456, stdin */
+/* line 460, stdin */
 .ng-global-nav__search-topics__title {
   display: inline-block;
   padding: 20px 100px 20px 0;
   border-bottom: 1px solid #979797;
   margin-bottom: 20px; }
 
-/* line 464, stdin */
+/* line 468, stdin */
 .ng-global-nav__search-topics__list {
   margin-bottom: 50px;
-  list-style-type: none; }
-  /* line 469, stdin */
+  list-style-type: none;
+  padding: 0; }
+  /* line 474, stdin */
   .ng-global-nav__search-topics__list:after {
     content: '';
     display: block;
     clear: both; }
-  /* line 475, stdin */
+  /* line 480, stdin */
   .ng-global-nav__search-topics__list li a {
     display: block;
     float: left;
@@ -391,12 +395,12 @@ body, .sb-site, .subject-matter {
     margin: 0 20px 20px 0;
     border: 1px solid #979797;
     text-decoration: none; }
-    /* line 485, stdin */
+    /* line 490, stdin */
     .ng-global-nav__search-topics__list li a:hover {
       background-color: #979797;
       cursor: pointer; }
 
-/* line 492, stdin */
+/* line 497, stdin */
 .ng-global-nav__promo-collection__wrapper {
   max-width: 100%;
   margin-left: auto;
@@ -413,31 +417,31 @@ body, .sb-site, .subject-matter {
     content: " ";
     display: block;
     clear: both; }
-  /* line 503, stdin */
+  /* line 508, stdin */
   .breakpoint-desktop-only .ng-global-nav__promo-collection__wrapper, .breakpoint-large-desktop-only .ng-global-nav__promo-collection__wrapper {
     font-size: 25px; }
 
-/* line 511, stdin */
+/* line 516, stdin */
 .ng-global-nav__promo-collection__column {
   position: relative;
   height: 100%;
   font-size: 0.75em; }
-  /* line 516, stdin */
+  /* line 521, stdin */
   .ng-global-nav__promo-collection__column._1-up {
     width: 49.51456%;
     float: left;
     margin-right: 0.97087%; }
-  /* line 520, stdin */
+  /* line 525, stdin */
   .ng-global-nav__promo-collection__column._2-up {
     width: 24.27184%;
     float: left;
     margin-right: 0.97087%; }
-  /* line 524, stdin */
+  /* line 529, stdin */
   .ng-global-nav__promo-collection__column:nth-child(3) {
     float: right;
     margin-right: 0; }
 
-/* line 529, stdin */
+/* line 534, stdin */
 .ng-global-nav__promo-collection__box {
   position: relative;
   cursor: pointer;
@@ -445,15 +449,15 @@ body, .sb-site, .subject-matter {
   text-decoration: none;
   color: #fff;
   overflow: hidden; }
-  /* line 539, stdin */
+  /* line 544, stdin */
   .ng-global-nav__promo-collection__box:hover:before {
     opacity: 0.2; }
-  /* line 543, stdin */
+  /* line 548, stdin */
   .ng-global-nav__promo-collection__box:hover .ng-global-nav__promo-collection__box-image {
     transform: scale(1.05);
     -webkit-transform: scale(1.05);
     -ms-transform: scale(1.05); }
-  /* line 550, stdin */
+  /* line 555, stdin */
   .ng-global-nav__promo-collection__box:before {
     content: '';
     position: absolute;
@@ -464,28 +468,28 @@ body, .sb-site, .subject-matter {
     background: #000;
     opacity: 0.3;
     z-index: 5; }
-  /* line 563, stdin */
+  /* line 568, stdin */
   .ng-global-nav__promo-collection__box.primary {
     height: 100%; }
-    /* line 566, stdin */
+    /* line 571, stdin */
     .ng-global-nav__promo-collection__box.primary:before {
       opacity: 0.2; }
-    /* line 570, stdin */
+    /* line 575, stdin */
     .ng-global-nav__promo-collection__box.primary .ng-global-nav__promo-collection__box-content {
       font-size: 1.3em; }
-  /* line 575, stdin */
+  /* line 580, stdin */
   .ng-global-nav__promo-collection__box .ng-global-nav__promo-collection__caption {
     display: none; }
-  /* line 579, stdin */
+  /* line 584, stdin */
   .ng-global-nav__promo-collection__box.secondary {
     height: 60%;
     margin-bottom: 5%; }
-  /* line 584, stdin */
+  /* line 589, stdin */
   .ng-global-nav__promo-collection__box.tertiary {
     height: 37.5%;
     bottom: 0; }
 
-/* line 590, stdin */
+/* line 595, stdin */
 .ng-global-nav__promo-collection__box-image {
   transition: all 0.4s ease;
   -webkit-transition: all 0.4s ease;
@@ -499,7 +503,7 @@ body, .sb-site, .subject-matter {
   background-size: cover;
   background-position: center; }
 
-/* line 602, stdin */
+/* line 607, stdin */
 .ng-global-nav__promo-collection__box-content {
   position: absolute;
   z-index: 10;
@@ -507,14 +511,14 @@ body, .sb-site, .subject-matter {
   padding: 0.5em;
   width: 100%; }
 
-/* line 611, stdin */
+/* line 616, stdin */
 .ng-global-nav__promo-collection__title {
   display: block;
   margin-bottom: 0.1em;
   position: static;
   color: #fff !important; }
 
-/* line 622, stdin */
+/* line 627, stdin */
 .ng-global-nav__promo-collection__metadata {
   color: #fff;
   font-size: 13px;
@@ -524,17 +528,17 @@ body, .sb-site, .subject-matter {
   padding: 6px 6px 4px 6px;
   margin-bottom: 5px; }
 
-/* line 632, stdin */
+/* line 637, stdin */
 .ng-global-nav__promo-collection__caption {
   display: block;
   font-size: 0.75em;
   text-transform: none;
   color: #fff !important; }
-  /* line 639, stdin */
+  /* line 644, stdin */
   .breakpoint-desktop-only .ng-global-nav__promo-collection__caption, .breakpoint-large-desktop-only .ng-global-nav__promo-collection__caption {
     display: block; }
 
-/* line 645, stdin */
+/* line 650, stdin */
 .global-nav__explore-content {
   max-width: 100%;
   margin-left: auto;
@@ -546,42 +550,42 @@ body, .sb-site, .subject-matter {
     content: " ";
     display: block;
     clear: both; }
-  /* line 651, stdin */
+  /* line 656, stdin */
   .breakpoint-tablet-up .global-nav__explore-content .io-accordion__content-wrapper {
     display: block !important; }
-  /* line 656, stdin */
+  /* line 661, stdin */
   .global-nav__explore-content .explore__column {
     height: 100%; }
-  /* line 661, stdin */
+  /* line 666, stdin */
   .breakpoint-desktop-only .global-nav__explore-content .explore__column, .breakpoint-large-desktop-only .global-nav__explore-content .explore__column {
     width: 20%;
     float: left; }
-    /* line 664, stdin */
+    /* line 669, stdin */
     .breakpoint-desktop-only .global-nav__explore-content .explore__column:nth-of-type(5), .breakpoint-large-desktop-only .global-nav__explore-content .explore__column:nth-of-type(5) {
       float: right;
       margin-right: 0; }
-  /* line 671, stdin */
+  /* line 676, stdin */
   .breakpoint-tablet-only .global-nav__explore-content .explore__column {
     width: 25%;
     float: left; }
-    /* line 674, stdin */
+    /* line 679, stdin */
     .breakpoint-tablet-only .global-nav__explore-content .explore__column:nth-of-type(4) {
       float: right;
       margin-right: 0; }
 
-/* line 681, stdin */
+/* line 686, stdin */
 .global-nav__explore__main-menu__link {
   display: block;
-  color: #fff;
+  color: #eee;
   font-size: 26px;
   padding: 20px 0 15px 0;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #eee;
   margin-bottom: 15px;
   margin-right: 20px; }
-  /* line 691, stdin */
+  /* line 696, stdin */
   .breakpoint-tablet-only .global-nav__explore__main-menu__link {
     font-size: 23px; }
-  /* line 695, stdin */
+  /* line 700, stdin */
   .breakpoint-palm-only .global-nav__explore__main-menu__link {
     border-bottom: 1px solid #555;
     margin-right: 0;
@@ -590,10 +594,10 @@ body, .sb-site, .subject-matter {
     padding: 25px;
     font-size: 18px; }
 
-/* line 706, stdin */
+/* line 711, stdin */
 .global-nav__accordion-status {
   display: none; }
-  /* line 709, stdin */
+  /* line 714, stdin */
   .breakpoint-palm-only .global-nav__accordion-status {
     display: inline-block;
     float: right;
@@ -602,20 +606,20 @@ body, .sb-site, .subject-matter {
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg); }
 
-/* line 719, stdin */
+/* line 724, stdin */
 .global-nav__explore__sub-menu {
   list-style-type: none;
   margin: 0;
   padding: 0 0 30px 0;
   font-size: 15px; }
-  /* line 725, stdin */
+  /* line 730, stdin */
   .breakpoint-tablet-only .global-nav__explore__sub-menu {
     font-size: 12px; }
-  /* line 729, stdin */
+  /* line 734, stdin */
   .breakpoint-palm-only .global-nav__explore__sub-menu {
     padding: 0 0 0 0; }
 
-/* line 735, stdin */
+/* line 740, stdin */
 .global-nav__explore__sub-menu__link {
   display: block;
   text-decoration: none;
@@ -623,28 +627,28 @@ body, .sb-site, .subject-matter {
   color: #fff !important;
   padding: 15px 0;
   margin-right: 10px; }
-  /* line 743, stdin */
+  /* line 748, stdin */
   .global-nav__explore__sub-menu__link:hover {
     color: #008CFF !important; }
-  /* line 747, stdin */
+  /* line 752, stdin */
   .breakpoint-palm-only .global-nav__explore__sub-menu__link {
     padding: 20px;
     background: #222;
     margin-right: 0;
     border-bottom: 1px solid #444; }
 
-/* line 755, stdin */
+/* line 760, stdin */
 .global-nav__explore__sub-menu__link-caption {
   color: #ccc;
   display: block;
   font-size: 13px;
   text-transform: none;
   margin-top: 5px; }
-  /* line 762, stdin */
+  /* line 767, stdin */
   .breakpoint-tablet-up .global-nav__explore__sub-menu__link-caption {
     display: none; }
 
-/* line 767, stdin */
+/* line 772, stdin */
 .global-nav__explore__call-to-action {
   position: absolute;
   z-index: 1;
@@ -653,13 +657,13 @@ body, .sb-site, .subject-matter {
   background-size: cover;
   background-position: center;
   min-height: 100%; }
-  /* line 776, stdin */
+  /* line 781, stdin */
   .breakpoint-tablet-only .global-nav__explore__call-to-action {
     display: none; }
-  /* line 780, stdin */
+  /* line 785, stdin */
   .breakpoint-palm-only .global-nav__explore__call-to-action {
     position: static; }
-  /* line 784, stdin */
+  /* line 789, stdin */
   .global-nav__explore__call-to-action:before {
     content: '';
     position: absolute;
@@ -669,11 +673,11 @@ body, .sb-site, .subject-matter {
     right: 0;
     left: 0;
     background: rgba(0, 0, 0, 0.5); }
-    /* line 794, stdin */
+    /* line 799, stdin */
     .breakpoint-palm-only .global-nav__explore__call-to-action:before {
       display: none; }
 
-/* line 800, stdin */
+/* line 805, stdin */
 .global-nav__explore__call-to-action__content {
   position: relative;
   z-index: 3;
@@ -681,37 +685,37 @@ body, .sb-site, .subject-matter {
   width: 100%;
   text-align: center;
   display: table; }
-  /* line 808, stdin */
+  /* line 813, stdin */
   .breakpoint-palm-only .global-nav__explore__call-to-action__content {
     display: block; }
-  /* line 812, stdin */
+  /* line 817, stdin */
   .global-nav__explore__call-to-action__content .table-wrapper {
     display: table;
     width: 100%; }
-    /* line 816, stdin */
+    /* line 821, stdin */
     .breakpoint-palm-only .global-nav__explore__call-to-action__content .table-wrapper {
       display: block; }
-  /* line 821, stdin */
+  /* line 826, stdin */
   .global-nav__explore__call-to-action__content .table-cell-wrapper {
     display: table-cell;
     vertical-align: middle;
     width: 100%;
     height: 100%; }
-    /* line 827, stdin */
+    /* line 832, stdin */
     .breakpoint-palm-only .global-nav__explore__call-to-action__content .table-cell-wrapper {
       display: block; }
 
-/* line 833, stdin */
+/* line 838, stdin */
 .global-nav__explore__call-to-action__title {
   display: block;
   font-size: 28px;
   width: 85%;
   margin: 0 auto 10px auto; }
-  /* line 839, stdin */
+  /* line 844, stdin */
   .breakpoint-palm-only .global-nav__explore__call-to-action__title {
     display: none; }
 
-/* line 844, stdin */
+/* line 849, stdin */
 .global-nav__explore__call-to-action__link {
   display: block;
   background: #035496;
@@ -721,33 +725,33 @@ body, .sb-site, .subject-matter {
   width: 85%;
   margin: 0 auto;
   max-width: 230px; }
-  /* line 854, stdin */
+  /* line 859, stdin */
   .global-nav__explore__call-to-action__link:hover {
     background: #093a62; }
-  /* line 858, stdin */
+  /* line 863, stdin */
   .breakpoint-palm-only .global-nav__explore__call-to-action__link {
     width: 100%;
     max-width: none;
     padding: 25px;
     font-size: 18px;
     text-align: left; }
-  /* line 866, stdin */
+  /* line 871, stdin */
   .global-nav__explore__call-to-action__link span {
     font-size: 14px; }
-    /* line 869, stdin */
+    /* line 874, stdin */
     .breakpoint-palm-only .global-nav__explore__call-to-action__link span {
       float: right; }
 
-/* line 876, stdin */
+/* line 881, stdin */
 .global-nav__explore__mobile-content {
   padding: 20px; }
-  /* line 879, stdin */
+  /* line 884, stdin */
   .breakpoint-tablet-up .global-nav__explore__mobile-content {
     display: none; }
 
-/* line 884, stdin */
+/* line 889, stdin */
 .global-nav__explore__mobile-content__phone {
   display: block;
-  color: #fff;
+  color: #eee;
   font-size: 32px;
   text-align: center; }

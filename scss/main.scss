@@ -5,7 +5,7 @@
 $blue: #035496;
 $dark-blue: #093a62;
 $content-gray: #ccc;
-$content-white: #fff;
+$content-white: #eee;
 
 @mixin custom-transition($time) {
   transition: all $time ease;
@@ -271,10 +271,14 @@ body, .sb-site, .subject-matter {
   width: 40px;
   height: 40px;
   color: $content-white;
-  top: 70px;
-  right: 5px;
+  top: 50px;
+  right: -5px;
   font-size: 36px;
   cursor: pointer;
+
+  &:before {
+    font-size: 0.5em;
+  }
 
   .breakpoint-palm-only & {
     display: none !important;
@@ -465,6 +469,7 @@ body, .sb-site, .subject-matter {
   @extend .cf;
   margin-bottom: 50px;
   list-style-type: none;
+  padding: 0;
 
   &:after {
     content: '';

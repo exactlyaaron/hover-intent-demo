@@ -13,6 +13,7 @@
     <meta media="(min-width: 750px)" content="tablet-up" name="breakpoint" >
     <meta media="(max-width: 749px) and (orientation : landscape), (min-aspect-ratio: 13/9) and (max-width: 749px)" content="mobile-landscape" name="breakpoint">
     <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <script src="bower_components/metaquery/metaquery.js"></script>
     <script src="bower_components/lodash/lodash.js"></script>
     <script src="bower_components/jquery/dist/jquery.js"></script>
@@ -31,7 +32,7 @@
     <div id="sb-site" class="page-constraint">
       <div class="ng-global-nav">
         <div class="ng-global-nav__topbar">
-          <div data-ga-component="nav-dropdown-EXPLORE" class="ng-global-nav__topbar-icon explore-icon dropdown-link icon-explore" data-dropdown-id="explore"></div>
+          <div data-ga-component="nav-dropdown-EXPLORE" class="ng-global-nav__topbar-icon explore-icon dropdown-link icon-explore fa fa-navicon" data-dropdown-id="explore"></div>
           <div class="ng-global-nav__topbar-links">
             <a href="/" class="ng-global-nav__topbar-link topbar__logo">
               <div class="topbar-logo-wrapper"></div>
@@ -53,7 +54,7 @@
               <span class="icon-ng_point-right"></span>
             </a>
           </div>
-          <div data-ga-component="nav-dropdown-SEARCH" class="ng-global-nav__topbar-icon search-icon dropdown-link icon-ng_search" data-dropdown-id="search"></div>
+          <div data-ga-component="nav-dropdown-SEARCH fa fa-search" class="ng-global-nav__topbar-icon search-icon dropdown-link icon-ng_search fa fa-search" data-dropdown-id="search"></div>
         </div> <!-- close ng-global-nav__topbar -->
         <div class="ng-global-nav__dropdowns-wrapper">
           <div class="ng-global-nav__promo-collections-content dropdown__closed hover__menu-collection">
@@ -192,7 +193,7 @@
             </div>
           </div>
           <div class="ng-global-nav__dropdowns-content dropdown__closed">
-            <div data-ga-component="nav-dropdown-CLOSE" class="ng-global-nav__close icon-ng-circled-x opacity-0"></div>
+            <div data-ga-component="nav-dropdown-CLOSE" class="ng-global-nav__close icon-ng-circled-x opacity-0 fa fa-times"></div>
             <div data-ga-component="nav-dropdown-EXPLORE" class="ng-global-nav__dropdown global-nav__explore-dropdown dropdown-content__hidden scrollable" data-dropdown="explore" data-type="dropdown">
               <div class="global-nav__explore-content io-accordion">
                 <div class="global-nav__explore__menu explore__column io-accordion__item">
@@ -384,7 +385,7 @@
                 <h2 class="global-nav__search-dropdown__title">SEARCH</h2>
                 <form class="ng-global-nav__search-form" action="/search" method="GET">
                   <input id="global-nav__search-input" type="text" name="q" value="" placeholder="Enter a search term...">
-                  <span class="ng-global-nav__search-submit__wrapper icon-ng_search">
+                  <span class="ng-global-nav__search-submit__wrapper icon-ng_search fa fa-search">
                     <input type="submit" name="ng-global-nav__search-submit" value="">
                   </span>
                 </form>
