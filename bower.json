@@ -6,7 +6,9 @@
     "lodash": "~3.10.1",
     "velocity": "~1.2.3",
     "susy": "~2.2.6",
-    "gulp": "~3.9.0"
+    "gulp": "~3.9.0",
+    "metaquery": "~1.2.5",
+    "modernizr": "~3.2.0"
   },
   "private": true
 }
