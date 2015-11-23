@@ -21,13 +21,13 @@
     var toggleState = $element.attr('data-state');
     var label = $(e.target).text().trim();
     if(toggleState === 'closed'){
-      sendGaEvent('expand', e.target, label);
+      //sendGaEvent('expand', e.target, label);
       $element.css('transform', 'rotate(-90deg)');
       $element.attr('data-state', 'open');
     } else {
       $element.css('transform', 'rotate(90deg)');
       $element.attr('data-state', 'closed');
-      sendGaEvent('collapse', e.target, label);
+      //sendGaEvent('collapse', e.target, label);
     }
   }
 

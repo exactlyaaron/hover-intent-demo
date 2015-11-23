@@ -120,14 +120,17 @@ $(document).ready(function(){
           }, 100);
         },200);
       }
-
-      if( manager.activeWrapper[0] === $dropdownsWrapper[0] ){
-        // if closing the dropdown wrapper (not collection wrapper) fade out the close button also
-        $dropdownClose.addClass('opacity-0');
-        setTimeout(function(){
-          $dropdownClose.css('display', 'none');
+      if(manager.activeWrapper){
+        if( manager.activeWrapper[0] === $dropdownsWrapper[0] ){
+          // if closing the dropdown wrapper (not collection wrapper) fade out the close button also
+          $dropdownClose.addClass('opacity-0');
+          setTimeout(function(){
+            $dropdownClose.css('display', 'none');
+            closeMenuStates();
+          }, 100);
+        } else {
           closeMenuStates();
-        }, 100);
+        }
       } else {
         closeMenuStates();
       }
